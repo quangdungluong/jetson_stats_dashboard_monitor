@@ -1,0 +1,4 @@
+scrape_configs:
+  - job_name: 'nvidia_jetson'
+    static_configs:
+    - targets: ['node-exporter:9998']
